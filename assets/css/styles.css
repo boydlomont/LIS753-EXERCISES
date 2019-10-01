@@ -1,0 +1,17 @@
+body{
+  background-color: #32A374;
+  front-family: arial, sans-serif;
+}
+
+h1, h2{
+  color: #f9C900;
+}
+
+a {
+  color: #82OE76;
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
