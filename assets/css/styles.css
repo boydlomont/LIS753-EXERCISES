@@ -5,7 +5,7 @@ body{
 }
 
 .wrapper {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   Width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -27,7 +27,7 @@ h1, h2{
 }
 
 blockquote {
-  border-left: : 4px solid #141301;
+  border-left: 4px solid #d2d2d2;
   padding: 12px;
   background-color: #f9f9f9;
   margin-left: 0;
@@ -60,4 +60,18 @@ ul {
 
 p {
   line-height: 1.4em;
+}
+
+header {
+  background-image: url(../images/triangle-mosaic.png);
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+}
+
+footer.wrapper {
+  background-image: url(../images/triangle-mosaic.png);
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 2px solid #d2d2d2;
+
 }
