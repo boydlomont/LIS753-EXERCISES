@@ -1,11 +1,11 @@
 body{
-  background-color: #32A374;
+  background-color: #fe5f55;
   front-family: arial, sans-serif;
-  color: #12100e;
+  color: #090909;
 }
 
 .wrapper {
-  background-color: #FFFFFF;
+  background-color: #f7f7ff;
   Width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -13,8 +13,8 @@ body{
 }
 
 h1 {
-  margin-bottom: .5em;
-
+  margin-bottom: .15em;
+  margin-top: 1em;
 }
 
 h2 {
@@ -22,14 +22,26 @@ h2 {
   margin-top: 1em;
 }
 
-h1, h2{
-  color: #6874e8;
-}
+h1{
+  color: #495867
+  }
+
+  h2{
+  color: #577399;
+  }
+
+h3 {
+  text-align: center;
+  border-bottom: 2px solid #d2d2d2;
+  font-size: 185%;
+  padding: 20px 60px;
+  color: #495867;
+   }
 
 blockquote {
   border-left: 4px solid #d2d2d2;
   padding: 12px;
-  background-color: #f9f9f9;
+  background-color: #bda6ff;
   margin-left: 0;
   }
 
@@ -62,14 +74,16 @@ p {
   line-height: 1.4em;
 }
 
-header. {
-  background-image: url(../images/triangle-mosaic.png);
-  border-bottom: 2px solid #d2d2d2;
+header {
+  background-image: url(../images/gplaypattern.png);
+  border-bottom: 1px solid #d2d2d2;
+  font-size:130%;
+  padding: 10px 10px;
   text-align: center;
 }
 
 footer.wrapper {
-  background-image: url(../images/triangle-mosaic.png);
+  background-image: url(../images/gplaypattern.png);
   text-align: center;
   padding: 30px 20px;
   border-top: 2px solid #d2d2d2;
