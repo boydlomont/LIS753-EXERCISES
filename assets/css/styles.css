@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-color: #32A374;
   front-family: arial, sans-serif;
@@ -6,7 +10,7 @@ body{
 
 .wrapper {
   background-color: #FFFFFF;
-  Width: 92%;
+  Width: 98%;
   max-width: 800px;
   margin: 0 auto;
   padding: 12px 20px;
@@ -62,8 +66,8 @@ p {
   line-height: 1.4em;
 }
 
-header. {
-  background-image: url(../images/triangle-mosaic.png);
+header {
+background-image: url(../images/triangle-mosaic.png);
   border-bottom: 2px solid #d2d2d2;
   text-align: center;
 }
@@ -71,7 +75,24 @@ header. {
 footer.wrapper {
   background-image: url(../images/triangle-mosaic.png);
   text-align: center;
-  padding: 30px 20px;
+  padding: 40px 20px;
   border-top: 2px solid #d2d2d2;
+}
 
+@media all and (min-width:920px) {
+article, aside {
+  float: left ;
+}
+
+article {
+width: 75%;
+padding-right: 20px
+}
+
+aside {
+  width: 25%;
+}
+
+aside h2:first-child {
+  margin-top: 13px;
 }
