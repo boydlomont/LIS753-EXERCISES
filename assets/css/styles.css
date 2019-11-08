@@ -18,7 +18,10 @@ body{
 
 h1 {
   margin-bottom: .5em;
+}
 
+h1#page-title {
+  margin: 0;
 }
 
 h2 {
@@ -41,6 +44,13 @@ blockquote {
     text-align: center;
     margin: 2em 0;
   }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .caption {
 front-style: italic;
@@ -72,11 +82,23 @@ background-image: url(../images/triangle-mosaic.png);
   text-align: center;
 }
 
+header.wrapper {
+  padding: 26 px 20px;
+}
+
 footer.wrapper {
   background-image: url(../images/triangle-mosaic.png);
   text-align: center;
   padding: 40px 20px;
   border-top: 2px solid #d2d2d2;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+article {
+  padding-top: 14px;
 }
 
 @media all and (min-width:920px) {
@@ -86,12 +108,13 @@ article, aside {
 
 article {
 width: 75%;
-padding-right: 20px
+padding-right: 20px;
 }
 
 aside {
   width: 25%;
 }
+
 
 aside h2:first-child {
   margin-top: 13px;
