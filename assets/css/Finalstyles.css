@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f0f664;
+  front-family: arial, sans-serif;
+  color: #12100e;
+}
+
+.wrapper {
+  background-color: #FFFFFF;
+  Width: 98%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1 {
+  margin-bottom: .5em;
+}
+
+h1#page-title {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: .40em;
+margin-top:  .0;
+}
+
+h1, h2{
+  color: #6874e8;
+}
+
+blockquote {
+  border-left: 4px solid #d2d2d2;
+  padding: 12px;
+  background-color: #f9f9f9;
+  margin-left: 0;
+  }
+
+  .image {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.caption {
+front-style: italic;
+margin-top: .1em;
+}
+
+
+a {
+  color: #0f0326;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+header {
+background-image: url(../images/embossed-diamond.png);
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+}
+
+header img {
+  float: center;
+  width: 80px;
+  height: 80px;
+  background: #555;
+}
+
+header.wrapper {
+  padding: 10 px 10px;
+}
+
+footer.wrapper {
+  background-image: url(../images/embossed-diamond.png);
+  text-align: center;
+  padding: 20px 20px;
+  border-top: 2px solid #d2d2d2;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+article {
+  padding-top: 14px;
+}
+
+@media all and (min-width:920px) {
+article, aside {
+  float: left ;
+}
+
+article {
+width: 75%;
+padding-right: 20px;
+}
+
+aside {
+  width: 25%;
+}
+
+
+aside h2:first-child {
+  margin-top: 13px;
+}
